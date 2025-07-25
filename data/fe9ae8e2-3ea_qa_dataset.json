@@ -1,0 +1,140 @@
+{
+  "document_id": "fe9ae8e2-3ea",
+  "generated_at": "2025-07-25T19:45:35.706345",
+  "source_info": {
+    "original_segments": 184,
+    "processing_metadata": {
+      "processed_at": "2025-07-25T19:45:14.317000",
+      "processor_version": "1.0",
+      "total_segments": 184,
+      "has_search_data": true,
+      "has_pdf_data": false,
+      "language": "en"
+    },
+    "quality_metrics": {
+      "avg_quality_score": 0.795652173913043,
+      "avg_word_count": 192.56521739130434,
+      "total_tokens": 36691
+    }
+  },
+  "qa_dataset": {
+    "total_pairs": 10,
+    "pairs": [
+      {
+        "question": "What is the primary environmental benefit associated with electric cars?",
+        "answer": "The primary environmental benefit associated with electric cars is the reduction of greenhouse gas emissions and other pollutants, as they produce zero tailpipe emissions.",
+        "question_type": "factual",
+        "difficulty": "medium",
+        "generated_at": "2025-07-25T19:45:18.983711",
+        "segment_index": 0,
+        "source_segment": "Title: Electric car Electric car - Wikipedia Jump to content Main menu Main menu move to sidebar hide Navigation Main pageContentsCurrent eventsRandom articleAbout WikipediaContact us Contribute HelpLearn to editCommunity portalRecent changesUpload fileSpecial pages Search Search Appearance Donate Create account Log in Personal tools Donate Create account Log in Pages for logged out editors learn more ContributionsTalk Contents move to sidebar hide (Top) 1 Terminology 2 History Toggle History subsection 2 1 Early developments 2 2 Modern electric cars 3 Economics Toggle Economics subsection 3 1 Manufacturing cost 3 2 Total cost of ownership 3 2 1 Purchase cost 3 2 2 Running costs 4 Environmental aspects Toggle Environmental aspects subsection 4 1 Public opinion 5 Performance Toggle Performance subsection 5 1 Acceleration and drivetrain design 6 Energy efficiency Toggle Energy efficiency subsection 6 1 Cabin heating and cooling 7 Safety Toggle Safety subsection 7 1 Weight 7 2 Stability 7 3 Risk of fire 8 Controls 9 Batteries Toggle Batteries subsection 9 1 Range 9 2 Charging 9 2 1 Connectors 9 2 2 Home charging 9 2 3 Public charging 9 2 4 Electric roads 9 2 5 National electric road projects 9 2",
+        "word_count": 195,
+        "quality_score": 0.8
+      },
+      {
+        "question": "What types of electric transportation are mentioned in the article as being covered by the broader term 'Electric vehicle'?",
+        "answer": "The article mentions that the term 'Electric vehicle' covers all types of electric transportation, not just electric automobiles.",
+        "question_type": "factual",
+        "difficulty": "easy",
+        "generated_at": "2025-07-25T19:45:21.294949",
+        "segment_index": 1,
+        "source_segment": "6 Vehicle-to-grid: uploading and grid buffering 9 3 Lifespan 10 Currently available electric cars Toggle Currently available electric cars subsection 10 1 Sales of electric cars 10 2 Electric cars by country 11 Government policies and incentives 12 EV plans from major manufacturers 13 Forecasts 14 See also 15 References 16 Further reading 17 External links Toggle the table of contents Electric car 77 languages العربيةAragonésAsturianuAzərbaycancaবাংলাБеларускаяБеларуская (тарашкевіца)भोजपुरीБългарскиCatalàČeštinaCymraegDanskDeutschEestiΕλληνικάEspañolEsperantoEuskaraفارسیFrançaisGaeilgeGalegoگیلکی한국어Հայերենहिन्दीHrvatskiIdoBahasa IndonesiaÍslenskaItalianoעבריתಕನ್ನಡქართულიҚазақшаKurdîКыргызчаລາວLatviešuLietuviųMagyarМакедонскиBahasa MelayuMinangkabauမြန်မာဘာသာNederlands日本語NordfriiskNorsk bokmålNorsk nynorskOʻzbekcha / ўзбекчаپنجابیپښتوPolskiPortuguêsRomânăРусскийСаха тылаShqipසිංහලSlovenčinaSlovenščinaکوردیСрпски / srpskiSrpskohrvatski / српскохрватскиSuomiSvenskaதமிழ்ไทยTürkçeУкраїнськаاردوTiếng Việt吴语粵語中文 Edit links ArticleTalk English ReadEditView history Tools Tools move to sidebar hide Actions ReadEditView history General What links hereRelated changesUpload filePermanent linkPage informationCite this pageGet shortened URLDownload QR code Print/export Download as PDFPrintable version In other projects Wikimedia CommonsWikidata item Appearance move to sidebar hide From Wikipedia, the free encyclopedia Car propelled by an electric motor using energy stored in batteries This article is about electric automobiles For all types of electric transportation, see Electric vehicle",
+        "word_count": 155,
+        "quality_score": 0.8
+      },
+      {
+        "question": "What type of automobile is propelled by an electric traction motor, using electrical energy as the primary source of propulsion?",
+        "answer": "An electric car or electric vehicle (EV) is a passenger automobile that is propelled by an electric traction motor, using electrical energy as the primary source of propulsion.",
+        "question_type": "factual",
+        "difficulty": "easy",
+        "generated_at": "2025-07-25T19:45:22.641253",
+        "segment_index": 2,
+        "source_segment": "Modern all-electric carsTesla Model 3Nissan LeafHyundai Ioniq 5BMW i3 Part of a series onSustainable energy Energy conservation Arcology Building insulation Cogeneration Compact fluorescent lamp Eco hotel Eco-cities Ecohouse Ecolabel Efficient energy use Energy audit Energy efficiency implementation Energy recovery Energy recycling Energy saving lamp Energy Star Energy storage Environmental planning Environmental technology Fossil fuel phase-out Glass in green buildings Green building and wood Green building Heat pump List of low-energy building techniques Low-energy house Microgeneration Passive house Passive solar building design Sustainable architecture Sustainable city Sustainable habitat Sustainable refurbishment Thermal energy storage Tropical green building Waste-to-energy Zero heating building Zero-energy building Renewable energy Biofuel Sustainable Biogas Biomass Carbon-neutral fuel Geothermal energy Geothermal power Geothermal heating Hydropower Hydroelectricity Micro hydro Pico hydro Run-of-the-river Small hydro Marine current power Marine energy Tidal power Tidal barrage Tidal farm Tidal stream generator Ocean thermal energy conversion Renewable energy transition Renewable heat Solar Wave Wind Community Farm Floating wind turbine Forecasting Industry Lens Outline Rights Turbine Windbelt Windpump Sustainable transport Green vehicle Electric vehicle Bicycle Solar vehicle Wind-powered vehicle Human-electric Twike Plug-in Human-powered transport Helicopter Hydrofoil Land vehicle Bicycle Cycle rickshaw Kick scooter Quadracycle Tricycle Velomobile Roller skating Skateboarding Walking Watercraft Personal transporter Rail transport Tram Rapid transit Personal rapid transit Category Renewable energy portalvte An electric car or electric vehicle (EV) is a passenger automobile that is propelled by an electric traction motor, using electrical energy as the primary source of propulsion",
+        "word_count": 238,
+        "quality_score": 0.8
+      },
+      {
+        "question": "What types of vehicles are broadly included under the term electric car, apart from battery electric vehicles?",
+        "answer": "The term electric car may also include plug-in hybrid electric vehicles (PHEV), range-extended electric vehicles (REEV), and fuel cell electric vehicles (FCEV).",
+        "question_type": "factual",
+        "difficulty": "medium",
+        "generated_at": "2025-07-25T19:45:24.301622",
+        "segment_index": 3,
+        "source_segment": "The term normally refers to a plug-in electric vehicle, typically a battery electric vehicle (BEV), which only uses energy stored in on-board battery packs, but broadly may also include plug-in hybrid electric vehicle (PHEV), range-extended electric vehicle (REEV) and fuel cell electric vehicle (FCEV), which can convert electric power from other fuels via a generator or a fuel cell Compared to conventional internal combustion engine (ICE) vehicles, electric cars are quieter, more responsive, have superior energy conversion efficiency and no exhaust emissions, as well as a typically lower overall carbon footprint from manufacturing to end of life[1][2] (even when a fossil-fuel power plant supplying the electricity might add to its emissions) Due to the superior efficiency of electric motors, electric cars also generate less waste heat, thus reducing the need for engine cooling systems that are often large, complicated and maintenance-prone in ICE vehicles The electric vehicle battery typically needs to be plugged into a mains electricity power supply for recharging in order to maximize the cruising range Recharging an electric car can be done at different kinds of charging stations; these charging stations can be installed in private homes, parking garages and public areas",
+        "word_count": 195,
+        "quality_score": 0.8
+      },
+      {
+        "question": "What percentage of new car sales were plug-in electric cars in 2022?",
+        "answer": "14% of new car sales were plug-in electric cars in 2022.",
+        "question_type": "factual",
+        "difficulty": "easy",
+        "generated_at": "2025-07-25T19:45:25.703274",
+        "segment_index": 4,
+        "source_segment": "[3] There is also research and development in, as well as deployment of, other technologies such as battery swapping and inductive charging As the recharging infrastructure (especially fast chargers) is still in its infancy, range anxiety and time cost are frequent psychological obstacles during consumer purchasing decisions against electric cars Worldwide, 14 million plug-in electric cars were sold in 2023, 18% of new car sales, up from 14% in 2022 [4] Many countries have established government incentives for plug-in electric vehicles, tax credits, subsidies, and other non-monetary incentives while several countries have legislated to phase-out sales of fossil fuel cars,[5][6] to reduce air pollution and limit climate change [7][8] EVs are expected to account for over one-fifth of global car sales in 2024 [4] China currently has the largest stock of electric vehicles in the world, with cumulative sales of 5 5 million units through December 2020,[9][needs update] although these figures also include heavy-duty commercial vehicles such as buses, garbage trucks and sanitation vehicles, and only accounts for vehicles manufactured in China",
+        "word_count": 172,
+        "quality_score": 0.8
+      },
+      {
+        "question": "What type of electric vehicle is typically referred to as an 'electric car'?",
+        "answer": "A battery electric vehicle (BEV) or all-electric car, which has an onboard rechargeable battery pack that can be plugged in and charged from the electric grid.",
+        "question_type": "factual",
+        "difficulty": "medium",
+        "generated_at": "2025-07-25T19:45:27.337923",
+        "segment_index": 5,
+        "source_segment": "[10][11][12][13][14][15] In the United States and the European Union, as of 2020, the total cost of ownership of recent electric vehicles is cheaper than that of equivalent ICE cars, due to lower fueling and maintenance costs [16][17] In 2023, the Tesla Model Y became the world's best selling car [18] The Tesla Model 3 became the world's all-time best-selling electric car in early 2020,[19] and in June 2021 became the first electric car to pass 1 million global sales [20] Together with other emerging automotive technologies such as autonomous driving, connected vehicles and shared mobility, electric cars form a future mobility vision called Autonomous, Connected, Electric and Shared (ACES) Mobility [21][page needed] Terminology[edit] See also: Vehicle classification by propulsion system, Plug-in electric vehicle § Terminology, and Battery electric vehicle The term \"electric car\" typically refers specifically to battery electric vehicles (BEVs) or all-electric cars, a type of electric vehicle (EV) that has an onboard rechargeable battery pack that can be plugged in and charged from the electric grid, and the electricity stored on the vehicle is the only energy source that provide propulsion for the wheels",
+        "word_count": 186,
+        "quality_score": 0.8
+      },
+      {
+        "question": "What is the name of the first electric car, often credited to Robert Anderson, and in what time period was it invented?",
+        "answer": "The first electric car is often credited to Robert Anderson, and it was invented sometime between 1832 and 1839.",
+        "question_type": "factual",
+        "difficulty": "medium",
+        "generated_at": "2025-07-25T19:45:28.747718",
+        "segment_index": 6,
+        "source_segment": "The term generally refers to highway-capable automobiles, but there are also low-speed electric vehicles with limitations in terms of weight, power, and maximum speed that are allowed to travel on certain public roads The latter are classified as Neighborhood Electric Vehicles (NEVs) in the United States,[22] and as electric motorised quadricycles in Europe [23] History[edit] Main article: History of the electric vehicle Early developments[edit] Robert Anderson is often credited with inventing the first electric car some time between 1832 and 1839 [24] The following experimental electric cars appeared during the 1880s: In 1881, Gustave Trouvé presented an electric car driven by an improved Siemens motor at the Exposition internationale d'Électricité de Paris [25] in 1882 Werner von Siemens presents the Electromote, the world's first trolleybus, in Berlin In 1884, Thomas Parker built an electric car in Wolverhampton, England using his own specially designed high-capacity rechargeable batteries, although the only documentation is a photograph from 1895 [26][27][28] In 1888, the German Andreas Flocken designed the Flocken Elektrowagen, regarded by some as the first \"real\" electric car [29][30][31] In 1890, Andrew Morrison introduced the first electric car to the United States",
+        "word_count": 189,
+        "quality_score": 0.8
+      },
+      {
+        "question": "What was the primary advantage of electric vehicles over gasoline-powered ones in the early 20th century?",
+        "answer": "Electric vehicles were quieter than gasoline-powered ones and did not require gear changes.",
+        "question_type": "factual",
+        "difficulty": "easy",
+        "generated_at": "2025-07-25T19:45:30.921587",
+        "segment_index": 7,
+        "source_segment": "[32] Electricity was among the preferred methods for automobile propulsion in the late 19th and early 20th centuries, providing a level of comfort and an ease of operation that could not be achieved by the gasoline-driven cars of the time [33] The electric vehicle fleet peaked at approximately 30,000 vehicles at the turn of the 20th century [34] In 1897, electric cars first found commercial use as taxis in Britain and in the United States In London, Walter Bersey's electric cabs were the first self-propelled vehicles for hire at a time when cabs were horse-drawn [35] In New York City, a fleet of twelve hansom cabs and one brougham, based on the design of the Electrobat II, formed part of a project funded in part by the Electric Storage Battery Company of Philadelphia [36] During the 20th century, the main manufacturers of electric vehicles in the United States included Anthony Electric, Baker, Columbia, Anderson, Edison, Riker, Milburn, Bailey Electric, and Detroit Electric Their electric vehicles were quieter than gasoline-powered ones, and did not require gear changes [37][38] Six electric cars held the land speed record in the 19th century",
+        "word_count": 189,
+        "quality_score": 0.8
+      },
+      {
+        "question": "What was the decisive moment that contributed to the decline of electric cars in popularity?",
+        "answer": "The introduction in 1912 of the electric starter motor, which replaced laborious methods of starting internal-combustion engine cars such as hand-cranking.",
+        "question_type": "factual",
+        "difficulty": "medium",
+        "generated_at": "2025-07-25T19:45:33.032573",
+        "segment_index": 8,
+        "source_segment": "[39] The last of them was the rocket-shaped La Jamais Contente, driven by Camille Jenatzy, which broke the 100 km/h (62 mph) speed barrier by reaching a top speed of 105 88 km/h (65 79 mph) in 1899 Electric cars remained popular until advances in internal-combustion engine (ICE) cars and mass production of cheaper gasoline- and diesel-powered vehicles, especially the Ford Model T, led to a decline [32] ICE cars' much quicker refueling times and cheaper production costs made them more popular However, a decisive moment came with the introduction in 1912 of the electric starter motor[40] that replaced other, often laborious, methods of starting the ICE, such as hand-cranking",
+        "word_count": 110,
+        "quality_score": 0.8
+      },
+      {
+        "question": "What was the year that California Air Resources Board (CARB) began a push for more fuel-efficient, lower-emissions vehicles?",
+        "answer": "The California Air Resources Board (CARB) began a push for more fuel-efficient, lower-emissions vehicles in the early 1990s.",
+        "question_type": "factual",
+        "difficulty": "easy",
+        "generated_at": "2025-07-25T19:45:34.702750",
+        "segment_index": 9,
+        "source_segment": "Gustave Trouvé's personal electric vehicle (1881), the world's first publicly presented full-scale electric car powered by an improved Siemens motor The Electromote, the world's first trolleybus by Werner von Siemens, Berlin 1882 Electric car built by Thomas Parker in 1984 - photo from 1895[41] The Flocken Elektrowagen from 1888 \"La Jamais Contente\", 1899 NASA's Lunar Roving Vehicles were battery-driven (1971) The General Motors EV1, one of the cars introduced due to a California Air Resources Board (CARB) mandate, had a range of 260 km (160 miles) with NiMH batteries in 1999 The Tesla Roadster (2008) Modern electric cars[edit] In the early 1990s the California Air Resources Board (CARB) began a push for more fuel-efficient, lower-emissions vehicles, with the ultimate goal of a move to zero-emissions vehicles such as electric vehicles [42][43] In response, automakers developed electric models These early cars were eventually withdrawn from the U S market, because of a massive campaign by the US automakers to discredit the idea of electric cars [44] California electric-automaker Tesla Motors began development in 2004 of what would become the Tesla Roadster, first delivered to customers in 2008",
+        "word_count": 186,
+        "quality_score": 0.8
+      }
+    ]
+  },
+  "generation_stats": {
+    "segments_processed": 10,
+    "qa_pairs_generated": 10,
+    "avg_pairs_per_segment": 0.05434782608695652
+  }
+}

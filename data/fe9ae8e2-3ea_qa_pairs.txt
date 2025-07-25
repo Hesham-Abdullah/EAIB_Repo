@@ -1,0 +1,75 @@
+Q&A Dataset for Document: fe9ae8e2-3ea
+Generated: 2025-07-25T19:45:35.706345
+Total Q&A Pairs: 10
+================================================================================
+
+Pair 1:
+Question: What is the primary environmental benefit associated with electric cars?
+Answer: The primary environmental benefit associated with electric cars is the reduction of greenhouse gas emissions and other pollutants, as they produce zero tailpipe emissions.
+Type: factual
+Difficulty: medium
+----------------------------------------
+
+Pair 2:
+Question: What types of electric transportation are mentioned in the article as being covered by the broader term 'Electric vehicle'?
+Answer: The article mentions that the term 'Electric vehicle' covers all types of electric transportation, not just electric automobiles.
+Type: factual
+Difficulty: easy
+----------------------------------------
+
+Pair 3:
+Question: What type of automobile is propelled by an electric traction motor, using electrical energy as the primary source of propulsion?
+Answer: An electric car or electric vehicle (EV) is a passenger automobile that is propelled by an electric traction motor, using electrical energy as the primary source of propulsion.
+Type: factual
+Difficulty: easy
+----------------------------------------
+
+Pair 4:
+Question: What types of vehicles are broadly included under the term electric car, apart from battery electric vehicles?
+Answer: The term electric car may also include plug-in hybrid electric vehicles (PHEV), range-extended electric vehicles (REEV), and fuel cell electric vehicles (FCEV).
+Type: factual
+Difficulty: medium
+----------------------------------------
+
+Pair 5:
+Question: What percentage of new car sales were plug-in electric cars in 2022?
+Answer: 14% of new car sales were plug-in electric cars in 2022.
+Type: factual
+Difficulty: easy
+----------------------------------------
+
+Pair 6:
+Question: What type of electric vehicle is typically referred to as an 'electric car'?
+Answer: A battery electric vehicle (BEV) or all-electric car, which has an onboard rechargeable battery pack that can be plugged in and charged from the electric grid.
+Type: factual
+Difficulty: medium
+----------------------------------------
+
+Pair 7:
+Question: What is the name of the first electric car, often credited to Robert Anderson, and in what time period was it invented?
+Answer: The first electric car is often credited to Robert Anderson, and it was invented sometime between 1832 and 1839.
+Type: factual
+Difficulty: medium
+----------------------------------------
+
+Pair 8:
+Question: What was the primary advantage of electric vehicles over gasoline-powered ones in the early 20th century?
+Answer: Electric vehicles were quieter than gasoline-powered ones and did not require gear changes.
+Type: factual
+Difficulty: easy
+----------------------------------------
+
+Pair 9:
+Question: What was the decisive moment that contributed to the decline of electric cars in popularity?
+Answer: The introduction in 1912 of the electric starter motor, which replaced laborious methods of starting internal-combustion engine cars such as hand-cranking.
+Type: factual
+Difficulty: medium
+----------------------------------------
+
+Pair 10:
+Question: What was the year that California Air Resources Board (CARB) began a push for more fuel-efficient, lower-emissions vehicles?
+Answer: The California Air Resources Board (CARB) began a push for more fuel-efficient, lower-emissions vehicles in the early 1990s.
+Type: factual
+Difficulty: easy
+----------------------------------------
+

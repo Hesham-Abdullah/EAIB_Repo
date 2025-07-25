@@ -1,0 +1,133 @@
+apis:
+  groq:
+    api_key: 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
+    api_key_env: GROQ_API_KEY
+    max_tokens: 1000
+    model: llama3-8b-8192
+    temperature: 0.1
+  serper:
+    api_key: 7117457cd2193a7e417a3f4082906afc98de09dd
+    api_key_env: SERPER_API_KEY
+    base_url: https://google.serper.dev
+    endpoints:
+      images: /images
+      news: /news
+      search: /search
+  timeouts:
+    processing_minutes: 3
+    qa_generation_minutes: 10
+    scraping_minutes: 5
+database:
+  mongodb:
+    collections:
+      cleaned_data: cleaned_data
+      content_archive: content_archive
+      qa_datasets: qa_datasets
+      search_sessions: search_sessions
+      unified_documents: unified_documents
+    connection_string: mongodb://localhost:27017/
+    connection_string_env: MONGODB_CONNECTION_STRING
+    database_name: scraping_pipeline
+processing:
+  content_extraction:
+    crawler:
+      browser_type: chromium
+      delay_before_return: 2.0
+      headless: true
+      rate_limit_delay: 2
+      remove_overlays: true
+      simulate_user: true
+      timeout: 30000
+    extract_links: true
+    max_content_length: 10000
+    min_content_length: 100
+    remove_html: true
+  deduplication:
+    enabled: true
+    hash_fields:
+    - url
+    - title
+    similarity_threshold: 0.85
+  defaults:
+    max_segment_length: 1000
+    min_segment_length: 50
+    quality_threshold: 3
+    similarity_threshold: 0.85
+qa_generation:
+  defaults:
+    max_qa_per_segment: 1
+    max_questions: 10
+    max_tokens: 1000
+    model: llama-3.1-8b-instant
+    temperature: 0.3
+  output_formats:
+    formats:
+    - json
+    - txt
+    - jsonl
+    save_to_database: true
+    save_to_files: true
+  prompt_settings:
+    context_window: 500
+    difficulty_levels:
+    - beginner
+    - intermediate
+    - advanced
+    question_types:
+    - factual
+    - analytical
+    - conceptual
+search:
+  candidate_sites:
+    enabled: true
+    sites:
+    - description: Comprehensive encyclopedia articles
+      domain: wikipedia.org
+      name: Wikipedia
+      priority: 1
+      search_prefix: site:wikipedia.org
+    - description: Technology news and analysis
+      domain: techcrunch.com
+      name: TechCrunch
+      priority: 2
+      search_prefix: site:techcrunch.com
+    - description: Technology and science news
+      domain: spectrum.ieee.org
+      name: IEEE Spectrum
+      priority: 2
+      search_prefix: site:spectrum.ieee.org
+    - description: Programming and technical Q&A
+      domain: stackoverflow.com
+      name: Stack Overflow
+      priority: 4
+      search_prefix: site:stackoverflow.com
+    - description: Open source projects and documentation
+      domain: github.com
+      name: GitHub
+      priority: 4
+      search_prefix: site:github.com
+    - description: Technical articles and tutorials
+      domain: medium.com
+      name: Medium
+      priority: 3
+      search_prefix: site:medium.com
+    strategies:
+      broad_search: true
+      default: mixed
+      site_rotation: true
+      targeted_sites:
+      - wikipedia.org
+      - techcrunch.com
+      - arstechnica.com
+  default_params:
+    country: us
+    extract_content: true
+    language: en
+    num_results: 2
+    preferred_sites: null
+    search_strategy: mixed
+    use_default_sites: false
+  query_enhancement:
+    add_context_keywords: true
+    enabled: true
+    expand_synonyms: false
