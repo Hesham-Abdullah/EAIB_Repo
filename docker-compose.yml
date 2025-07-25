@@ -1,0 +1,63 @@
+services:
+  # MongoDB service
+  mongodb:
+    image: mongo:7.0
+    container_name: eaib-mongodb
+    restart: unless-stopped
+    ports:
+      - "27017:27017"
+    environment:
+      MONGO_INITDB_DATABASE: scraping_pipeline
+    volumes:
+      - mongodb_data:/data/db
+      - mongodb_config:/data/configdb
+    networks:
+      - eaib-network
+    healthcheck:
+      test: ["CMD", "mongosh", "--eval", "db.adminCommand('ping')"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 30s
+
+  # EAIB Application
+  eaib-app:
+    build: .
+    container_name: eaib-application
+    restart: unless-stopped
+    ports:
+      - "8000:8000"  # FastAPI
+      - "8501:8501"  # Streamlit
+    environment:
+      - MONGODB_CONNECTION_STRING=mongodb://mongodb:27017/
+      - MONGODB_URI=mongodb://mongodb:27017/scraping_pipeline
+      - GROQ_API_KEY=${GROQ_API_KEY}
+      - SERPER_API_KEY=${SERPER_API_KEY}
+      - LOG_LEVEL=INFO
+      - LOG_FILE=logs/scraper.log
+      - PYTHONPATH=/app
+    volumes:
+      - ./logs:/app/logs
+      - ./data:/app/data
+      - ./config:/app/config
+    depends_on:
+      mongodb:
+        condition: service_healthy
+    networks:
+      - eaib-network
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 60s
+
+volumes:
+  mongodb_data:
+    driver: local
+  mongodb_config:
+    driver: local
+
+networks:
+  eaib-network:
+    driver: bridge 
